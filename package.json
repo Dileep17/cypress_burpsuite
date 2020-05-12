@@ -1,0 +1,26 @@
+{
+  "name": "cypress_burpsuite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dileep17/cypress_burpsuite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dileep17/cypress_burpsuite/issues"
+  },
+  "homepage": "https://github.com/Dileep17/cypress_burpsuite.git#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "async-wait-until": "^1.2.4",
+    "cypress": "^4.4.1",
+    "cypress-cucumber-preprocessor": "^2.3.1",
+    "zaproxy": "^1.0.1"
+  }
+}
